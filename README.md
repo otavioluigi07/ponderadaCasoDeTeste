@@ -12,8 +12,10 @@ Para a execução desse teste, algumas pré-condições foram estabelecidas:
 - Existir alguma ONG criada e integrada ao banco de dados;
 - Existir algum Líder criado e associado à alguma ONG no banco de dados.
 # Procedimento de teste:
-
+- Para o procedimento desse teste, o Script de teste precisar estar configurado para fazer uma chamada GET ao Endpoint responsável pelos Líderes;
+- Executar a solicitação GET.
 # Resultados Esperados:
+Os resultados esperados pela solicitação GET consiste em uma Array com o nome de todos os Líderes associados à uma respectiva ONG.
 # Resultado obtido:
 # Resultados que podem dar erro e exemplificá-los:
 # Pós-condição:
