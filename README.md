@@ -14,12 +14,18 @@ Para a execução desse teste, algumas pré-condições foram estabelecidas:
 # Procedimento de teste:
 - Para o procedimento desse teste, o Script de teste precisar estar configurado para fazer uma chamada GET ao Endpoint responsável pelos Líderes;
 - Executar a solicitação GET.
+- Executar no terminal os seguintes comandos:
+    - cd backend
+    - npm i
+    - npm run dev
 # Resultados Esperados:
 Os resultados esperados pela solicitação GET consiste em uma Array com o nome de todos os Líderes associados à uma respectiva ONG.
 # Resultado obtido:
 O resultado da requisição GET foi concluída com sucesso.
 
-![alt text](imagens/teste.png)
+<div>
+    <img src="imagens/teste.png" alt="Imagem do resultado do teste">
+</div>
 
 # Resultados que podem dar erro e exemplificá-los:
 Um resultado que pode dar erro  é quando ocorrer uma falha com a conexão do servidor. Sendo assim, o teste não poderá ser conclúido corretamente.
