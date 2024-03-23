@@ -24,7 +24,7 @@ Os resultados esperados pela solicitação GET consiste em uma Array com o nome 
 O resultado da requisição GET foi concluída com sucesso.
 
 <div>
-    <img src="imagens/teste.png" alt="Imagem do resultado do teste">
+    <img src="assets/teste.png" alt="Imagem do resultado do teste">
 </div>
 
 # Resultados que podem dar erro e exemplificá-los:
